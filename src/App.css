@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* 基本樣式 */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E5DED4;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #252620;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  /* 使用flexbox來確保內容在同一行 */
+  justify-content: space-between;
+  /* 使兩端的內容分開 */
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar h1 {
+  padding: 0px 10px;
+  color: #A46536;
+  text-shadow: 2px 2px 2px #7f4f24;
+  font-size: x-large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar .links {
+  margin-left: auto;
+  color: #F9F8F8;
+  font-size: medium;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #B8743C;
+}
+
+.navbar a:visited {
+  color: #786B63;
+}
+
+.navbar a:hover {
+  background-color: #936639;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.content {
+  margin: 10px auto;
+  padding: 0px 20px;
+}
+
+.home {
+  overflow: hidden;
+  margin: 0px 15px;
+  padding: 0px;
+  justify-content: space-between;
+  /* 使兩端的內容分開 */
+  font-size: larger;
+}
+
+.home h2 {
+  padding: 0px;
+  color: #582f0e;
+}
+
+.home p {
+  padding: 0px 20px;
+}
+
+.home input {
+  margin: 0px 20px;
+  font-size: medium;
+}
+
+.home select {
+  margin: 0px 20px;
+  font-size: large;
+}
+
+.home button {
+  padding: 10px 15px;
+  margin: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+  background-color: #a68a64;
+  border-color: #E0DDEE;
+}
+
+/* .home .button.receive {
+  background-color: #a4ac86;
+} */
+.purchase-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  /* 保持元素靠左對齊 */
 }
 
-.App-link {
-  color: #61dafb;
+.home .purchase {
+  background-color: #a4ac86;
+  padding: 10px 15px;
+  margin: 10px 20px;
+  border: none;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home span {
+  color: #333;
+  font-weight: bold;
+}
+
+.home button:hover {
+  background-color: #A89CA9;
 }

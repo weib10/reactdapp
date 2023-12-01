@@ -1,0 +1,14 @@
+{
+    "solidity.compileUsingRemoteVersion": "v0.8.4+commit.c8a2cb62",
+    "json.schemaDownload.enable": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay", // 不支援 afterDelay 自動存檔
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true
+    },
+    "solidity.enabledAsYouTypeCompilationErrorCheck": true,
+    "solidity.validationDelay": 1500,
+}

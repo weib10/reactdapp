@@ -1,0 +1,79 @@
+.Upload {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding: 0px 20px;
+}
+
+.Upload input {
+    display: block;
+    margin: 10px 10px 10px 0px;
+    padding: 3px 5px;
+}
+
+.Upload button {
+    display: inline;
+    margin: 10px 10px;
+    padding: 3px 5px;
+}
+
+.error {
+    color: #d93a13;
+    font-size: medium;
+}
+
+.Upload h2 {
+    color: #582f0e;
+    padding: 0;
+}
+
+.Upload p {
+    padding: 0px 20px;
+}
+
+.Upload button.uploadbtn {
+    background-color: #a4ac86;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+.Upload button.uploadbtn:hover {
+    background-color: #A89CA9;
+}
+
+.Upload .repeated.title {
+    color: #d93a13;
+    font-size: medium;
+}
+
+.Upload input[type="text"],
+.Upload input[type="file"] {
+    /* 設定寬度，保留一些邊距 */
+    /* 自動邊距將推動元素向左對齊 */
+    margin: 10px 15px;
+    /* 留下5%的邊距將元素向右移動 */
+    padding: 8px 10px;
+    /* 添加一些內邊距使文字不會太貼近邊框 */
+    border: 1px solid #ccc;
+    /* 可選：添加一個邊框 */
+    border-radius: 4px;
+    /* 可選：輕微的邊框圓角 */
+}
+
+/* 調整按鈕樣式使其與 input 欄位對齊 */
+.Upload button {
+    margin: 10px 15px;
+}
+
+/* 調整錯誤訊息樣式 */
+.error {
+    margin: 10px 0px;
+}
+
+/* 確保所有元素都向右對齊 */
+.form-group {
+    text-align: right;
+}

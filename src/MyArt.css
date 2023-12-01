@@ -1,0 +1,45 @@
+.MyArt {
+    padding: 0px 20px;
+}
+
+.MyArt .MyCreation,
+.MyArt .PurchasedArt {
+    margin-bottom: 20px;
+}
+
+.MyArt h2 {
+    padding: 0px;
+    color: #582f0e;
+}
+
+.MyArt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.MyArt li {
+    background-color: #E5DED4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.MyArt button {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: #a68a64;
+    border-color: #E0DDEE;
+}
+
+.MyArt button:hover {
+    background-color: #A89CA9;
+}
+
+.error {
+    color: #d93a13;
+    font-size: medium;
+}
